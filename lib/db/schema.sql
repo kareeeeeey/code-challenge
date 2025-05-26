@@ -3,7 +3,7 @@ DROP TABLE IF EXISTS articles;
 DROP TABLE IF EXISTS authors;
 DROP TABLE IF EXISTS magazines;
 
--- Authors Table
+--  Authors Table
 CREATE TABLE authors (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT NOT NULL,
